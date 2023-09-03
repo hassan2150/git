@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container text-center d-flex flex-column justify-content-center align-items-center" >
+   <h1>Contact Form </h1>
+   <div class="alert alert-warning alert-dismissible fade show" id="success" role="alert">
+    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>    
+   <form class="row g-3 ">
+        <div class="col-md-12  "  >
+          <label class="user form-label">User-Name</label>
+          <input  type="text" class="user form-control" id="username">
+          <small class="text-muted invalid-feedback form-text">Check Please</small>
+                </div>
+                
+                <div class="col-md-12 "  >
+                    <label class="email form-label">Email</label>
+                    <input type="email" class="email form-control" id="email">
+                    <small class="text-muted invalid-feedback form-text">Check Please</small>
+          
+                </div>
+                          <div class="col-md-12 " >
+                            <label class="phone form-label">Contact Number</label>
+                            <input type="number" class="phone form-control" id="phone">
+                            <small class="text-muted invalid-feedback form-text">Check Please</small>
+                        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+    
+    
+    
+    </div>
+    <script src="formcheck.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    
+</body>
+</html>
